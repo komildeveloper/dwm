@@ -28,18 +28,5 @@ Here is a helpful [link](https://gist.github.com/palopezv/efd34059af6126ad970940
 
 **NOTE** (I had to change "0" to "@DEFAULT_SINK@")
 
-## TODO
-
-- statuscmd patch
-- Add sticky patch
-- scratchpad (maybe named scratchpad)
-- alternative tags
-- maybe steam
-- Add resize corner patch
-- Add swallow patch
-
-## Probably not
-
-- pertag
-- awesome bar
-- Add alpha patch
+Original Author [chris@machine](https://github.com/ChristianChiarulli)
+[Repo](https://github.com/ChristianChiarulli/dwm)
