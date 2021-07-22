@@ -29,4 +29,5 @@ Here is a helpful [link](https://gist.github.com/palopezv/efd34059af6126ad970940
 **NOTE** (I had to change "0" to "@DEFAULT_SINK@")
 
 Original Author [chris@machine](https://github.com/ChristianChiarulli)
+
 [Repo](https://github.com/ChristianChiarulli/dwm)
