@@ -162,7 +162,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY,                       XK_F2,      spawn,  SHCMD("screenkey") },
-	{ MODKEY,                       XK_F3,      spawn,  SHCMD("killall screenkey") },
+	{ MODKEY,                       XK_F3,      spawn,  SHCMD("pkill -f screenkey") },
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	/* { MODKEY,                       XK_0,      view,           {.ui = ~0 } }, */
 	/* { MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } }, */
