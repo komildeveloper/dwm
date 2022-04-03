@@ -15,8 +15,7 @@ static const unsigned int gappov    = 23;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]     = {"SauceCodePro Nerd Font Mono:weight=bold:size=12:antialias=true:hinting=true",
-	                              "Mononoki:size=12:antialias=true:autohint=true",
+static const char *fonts[]     = {
                                   "Hack Nerd Font Mono:size=11:antialias=true:autohint=true",
                                   "JoyPixels:size=13:antialias=true:autohint=true"
 						     	};
