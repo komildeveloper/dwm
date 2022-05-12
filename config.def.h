@@ -20,12 +20,12 @@ static const char *fonts[]     = {
                                   "JoyPixels:size=13:antialias=true:autohint=true"
 						     	};
 
-static const char *upvol[]          = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "+1%",     NULL };
-static const char *downvol[]        = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "-1%",     NULL };
+static const char *upvol[]          = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "+5%",     NULL };
+static const char *downvol[]        = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "-5%",     NULL };
 static const char *mutevol[]        = { "/usr/bin/pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle",  NULL };
 static const char
-	*light_up[] = {"/usr/bin/light", "-A", "1", NULL},
-	*light_down[] = {"/usr/bin/light", "-U", "1", NULL};
+	*light_up[] = {"/usr/bin/light", "-A", "5", NULL},
+	*light_down[] = {"/usr/bin/light", "-U", "5", NULL};
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#333333";
 static const char col_gray3[]       = "#bbbbbb";
