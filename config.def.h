@@ -134,6 +134,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_space,      setlayout,      {0} }, 
 	{ MODKEY,			            XK_w,      spawn,		   SHCMD("$BROWSER") },
 	{ MODKEY,			            XK_r,      spawn,		   SHCMD("$TERMINAL -e ranger") },
+	{ MODKEY|ShiftMask,			  XK_r,      spawn,		   SHCMD("rofi -show drun") },
 	{ MODKEY|ShiftMask,			  XK_n,      spawn,		   SHCMD("nautilus") },
 	{ MODKEY,			            XK_y,      spawn,		   SHCMD("flameshot gui -p ~/Pictures/screenshots") },
 	{ MODKEY|ShiftMask,			    XK_y,      spawn,		   SHCMD("flameshot full -p ~/Pictures/screenshots") },
