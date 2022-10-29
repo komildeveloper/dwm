@@ -26,20 +26,20 @@ static const char *mutevol[]        = { "/usr/bin/pactl", "set-sink-mute",   "@D
 static const char
 	*light_up[] = {"/usr/bin/light", "-A", "1", NULL},
 	*light_down[] = {"/usr/bin/light", "-U", "1", NULL};
-static const char col_gray1[]       = "#282828";
-static const char col_gray2[]       = "#333333";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#fefefe";
-static const char col_cyan[]        = "#005577";
+static const char col_gray1[]       = "#1A1B26";
+static const char col_gray2[]       = "#21222c";
+static const char col_gray3[]       = "#a9b1d6";
+static const char col_gray4[]       = "#abb2bf";
+static const char col_cyan[]        = "#7dcfff";
 static const char col_purple[]      = "#5a5aa4";
-static const char col_red[]         = "#d54646";
-static const char col_green[]       = "#23d18b";
-static const char col_yellow[]      = "#d7ba7d";
-static const char col_blue[]        = "#81a1c1";
-static const char col_info_blue[]   = "#4fc1ff";
-static const char col_magenta[]     = "#c586c0";
-static const char col_white[]       = "#abb2bf";
-static const char col_bg_alt[]      = "#212121";
+static const char col_red[]         = "#F7768E";
+static const char col_green[]       = "#9ECE6A";
+static const char col_yellow[]      = "#E0AF68";
+static const char col_blue[]        = "#7AA2F7";
+static const char col_info_blue[]   = "#7AA2F7";
+static const char col_magenta[]     = "#ad8ee6";
+static const char col_white[]       = "#a9b1d6";
+static const char col_bg_alt[]      = "#21222c";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
